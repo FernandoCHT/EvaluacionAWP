@@ -1,0 +1,51 @@
+{
+    "name": "#Practica1",
+    "short_name": "#Practica1",
+    "description": "Esta es una página PWA",
+    "background_color": "#2B2B2B",
+    "theme_color": "#0277bd",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [{
+            "src": "./img/lab.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/lab_256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/lab_128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/lab_64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/lab_32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/lab_24.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/lab_16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}

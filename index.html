@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de evaluación</title>
+    <meta name="description" content="Bienvenid@s">
+
+    <meta name="theme-color" content="#F0DB4F">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="./img/lab.png">
+    <link rel="apple-touch-icon" href="./img/lab.png">
+    <link rel="apple-touch-startup-image" href="./lab.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./sw.js">
+
+    <link rel="stylesheet" href="./css/all.min.css"
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h2 class="logo">Laboratorio Clínico</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Blog</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+    <section id="banner">
+        <div class="contenido-banner">
+            <h3><span>Laboratorio Clínico: </span> toma de análisis clínicos <br> ¡Programa tu cita!</h3>
+            <a href="#" class="boton-empezar">Empezar</a>
+        </div>
+    </section>
+    <section id="personas">
+        <div>
+            <img src="./img/persona1.jpg" alt="">
+            <h4>¿QUÉ OFRECEMOS?</h4>
+            <p>
+                Trabajamos con un alto grado de seriedad y responsabilidad, 
+                ya que el material utilizado en la elaboración de los 
+                estudios cuenta con los parámetros de la más alta calidad y tecnología.</p>
+            <a href="#" class="boton-saber-mas">Saber Más</a>
+        </div>
+        <div>
+            <img src="./img/persona2.jpg" alt="">
+            <h4>Porque un chequeo a tiempo puede cambiar tu vida</h4>
+            <p>Brindamos un servicio completo y eficiente, con diagnósticos exactos y resultados oportunos, así como urgentes, con entrega de resultados el mismo día.</p>
+            <a href="#" class="boton-saber-mas">Saber Más</a>
+        </div>
+    </section>
+
+    <section id="iconos">
+        <div class="contenido-iconos">
+            <div>
+                <i class="fas fa-bolt fa-3x"></i>
+                <h6>Rápido</h6>
+                <p>Entrega de resultados el mismo día.</p>
+            </div>
+
+            <div>
+                <i class="fab fa-accessible-icon fa-3x"></i>
+                <h6>Diverso</h6>
+                <p>Laboratorio con una diversidad de estudios: análisis clínicos, estudios de tamiz, hematología, hormonas, microbiología</p>
+            </div>
+
+            <div id="icono-mobile">
+                <i class="fas fa-certificate fa-3x"></i>
+                <h6>Seguro</h6>
+                <p>Personal altamente capacitado</p>
+            </div>
+        </div>
+        <div class="boton-iconos">
+            <a href="#" class="boton-saber-mas">Saber Más</a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h4>Contacta con nosotros</h4>
+        <form action="#">
+            <div class="datos-form">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre"
+                    placeholder="Nombre">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"
+                    placeholder="Email">
+                </div>
+            </div>
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" 
+                rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="boton-formulario">
+                <a href="#" class="boton-saber-mas">Enviar Mensaje</a>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2021 Ejercicio de evaluación de Parcial I</p>
+    </footer>
+
+</body>
+<script src="https://kit.fontawesome.com/2fda4fbc0a.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</html>
